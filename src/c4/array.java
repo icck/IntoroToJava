@@ -18,7 +18,6 @@ public class array {
 		for (int i : score2) {
 			System.out.println(i);
 
-
 		}
 
 	}
