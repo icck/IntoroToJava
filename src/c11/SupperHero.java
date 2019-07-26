@@ -9,6 +9,7 @@ public class SupperHero extends Hero {
 
     @Override
     public void run() {
+        super.run();
         System.out.println("run override");
 
     }
