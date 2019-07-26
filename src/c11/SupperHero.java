@@ -1,15 +1,22 @@
 package c11;
 
-public class SupperHero extends Hero{
+public class SupperHero extends Hero {
 
-    private void fly() {
+    public void fly() {
         System.out.println("sleep");
 
     }
 
-    private void run() {
+    @Override
+    public void run() {
         System.out.println("run override");
 
     }
+
+//    @Override
+//	public void sleep() {
+//        System.out.println("sleep..final");
+//
+//    }
 
 }
