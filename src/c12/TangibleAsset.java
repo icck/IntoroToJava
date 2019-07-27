@@ -15,12 +15,12 @@ public abstract class TangibleAsset extends Asset implements Thing {
     }
 
     @Override
-	public double getWeight() {
+    public double getWeight() {
         return weight;
     }
 
     @Override
-	public void setWeight(double weight) {
+    public void setWeight(double weight) {
         this.weight = weight;
     }
 
