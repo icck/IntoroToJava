@@ -1,6 +1,6 @@
 package c11;
 
-public class Hero {
+public class Hero extends Character{
 
     public Hero() {
         System.out.println("Hero new");
@@ -14,6 +14,12 @@ public class Hero {
 
     public void run() {
         System.out.println("run");
+
+    }
+
+    @Override
+    public void atarck() {
+        System.out.println("atarck");
 
     }
 
