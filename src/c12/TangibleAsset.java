@@ -1,23 +1,12 @@
 package c12;
 
-public abstract class TangibleAsset {
-    private String name;
-    private int price;
+public abstract class TangibleAsset extends Asset {
     private String color;
 
     public TangibleAsset (String name, int price, String color) {
-        this.name =  name;
-        this.price =  price;
+        super(name, price);
         this.color =  color;
 
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getPrice() {
-        return price;
     }
 
     public String getColor() {
